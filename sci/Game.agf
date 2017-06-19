@@ -1909,8 +1909,8 @@ return
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>6</HotspotX>
-        <HotspotY>15</HotspotY>
+        <HotspotX>1</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>2054</Image>
         <View>0</View>
@@ -1921,8 +1921,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>1</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>2056</Image>
         <View>0</View>
@@ -1933,8 +1933,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>1</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>2057</Image>
         <View>0</View>
@@ -1945,8 +1945,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>1</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>2058</Image>
         <View>0</View>
@@ -1957,8 +1957,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>4</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>1</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>2059</Image>
         <View>0</View>
@@ -1981,8 +1981,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>6</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>1</HotspotX>
+        <HotspotY>1</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>2061</Image>
         <View>0</View>
@@ -1993,8 +1993,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>7</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>6</HotspotX>
+        <HotspotY>10</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>2055</Image>
         <View>0</View>
@@ -2404,14 +2404,38 @@ return
               <Sprite Slot="2089" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2090" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2091" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2054" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2055" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2056" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2057" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2058" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2054" Width="27" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\walk.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2055" Width="14" Height="22" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\wait.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2056" Width="26" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\examine.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2057" Width="19" Height="28" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\interact.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2058" Width="28" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\talk.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="2059" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2060" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2061" Width="16" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2061" Width="12" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\arrow.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="1" Width="20" Height="20" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="4" Width="20" Height="20" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
             </Sprites>
@@ -2857,24 +2881,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
