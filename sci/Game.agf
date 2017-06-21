@@ -26,8 +26,8 @@
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
       <InventoryHotspotMarkerStyle>None</InventoryHotspotMarkerStyle>
       <InventoryHotspotMarkerSprite>0</InventoryHotspotMarkerSprite>
-      <InventoryHotspotMarkerDotColor>0</InventoryHotspotMarkerDotColor>
-      <InventoryHotspotMarkerCrosshairColor>0</InventoryHotspotMarkerCrosshairColor>
+      <InventoryHotspotMarkerDotColor>6</InventoryHotspotMarkerDotColor>
+      <InventoryHotspotMarkerCrosshairColor>5</InventoryHotspotMarkerCrosshairColor>
       <WalkInLookMode>False</WalkInLookMode>
       <AntiGlideMode>True</AntiGlideMode>
       <DebugMode>True</DebugMode>
@@ -641,7 +641,50 @@
               <ID>0</ID>
               <Name>gStatusline</Name>
             </NormalGUI>
-            <Controls />
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>19248</TextColor>
+                <Font>0</Font>
+                <Text>@GAMENAME@</Text>
+                <Height>10</Height>
+                <Locked>True</Locked>
+                <Width>100</Width>
+                <Left>2</Left>
+                <Top>3</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>lblGameName</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>19248</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Score: @SCORE@</Text>
+                <Height>10</Height>
+                <Locked>True</Locked>
+                <Width>70</Width>
+                <Left>250</Left>
+                <Top>3</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>lblScore</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>19248</TextColor>
+                <Font>0</Font>
+                <Text>@OVERHOTSPOT@</Text>
+                <Height>10</Height>
+                <Locked>True</Locked>
+                <Width>320</Width>
+                <Left>0</Left>
+                <Top>3</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>lblOverHotspot</Name>
+              </GUILabel>
+            </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
@@ -654,9 +697,9 @@
               <Visibility>MouseYPos</Visibility>
               <PopupYPos>13</PopupYPos>
               <ZOrder>1</ZOrder>
-              <BorderColor>1</BorderColor>
+              <BorderColor>19248</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>1</ID>
               <Name>gIconbar</Name>
@@ -670,9 +713,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2066</PushedImage>
-                <MouseoverImage>2065</MouseoverImage>
-                <Image>2044</Image>
+                <PushedImage>2102</PushedImage>
+                <MouseoverImage>2101</MouseoverImage>
+                <Image>2100</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -681,7 +724,7 @@
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name />
+                <Name>btnIconWalk</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick />
@@ -691,9 +734,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2063</PushedImage>
-                <MouseoverImage>2062</MouseoverImage>
-                <Image>2041</Image>
+                <PushedImage>2106</PushedImage>
+                <MouseoverImage>2105</MouseoverImage>
+                <Image>2104</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -702,7 +745,7 @@
                 <Top>0</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
-                <Name />
+                <Name>btnIconExamine</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick />
@@ -712,9 +755,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2069</PushedImage>
-                <MouseoverImage>2068</MouseoverImage>
-                <Image>2046</Image>
+                <PushedImage>2110</PushedImage>
+                <MouseoverImage>2109</MouseoverImage>
+                <Image>2108</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -723,7 +766,7 @@
                 <Top>0</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
-                <Name />
+                <Name>btnIconInteract</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick />
@@ -733,9 +776,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2072</PushedImage>
-                <MouseoverImage>2071</MouseoverImage>
-                <Image>2047</Image>
+                <PushedImage>2114</PushedImage>
+                <MouseoverImage>2113</MouseoverImage>
+                <Image>2112</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -744,7 +787,7 @@
                 <Top>0</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
-                <Name />
+                <Name>btnIconTalk</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick>btnIconInv_Click</OnClick>
@@ -754,9 +797,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2075</PushedImage>
-                <MouseoverImage>2074</MouseoverImage>
-                <Image>2048</Image>
+                <PushedImage>2122</PushedImage>
+                <MouseoverImage>2121</MouseoverImage>
+                <Image>2120</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -775,9 +818,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2078</PushedImage>
-                <MouseoverImage>2049</MouseoverImage>
-                <Image>2049</Image>
+                <PushedImage>2126</PushedImage>
+                <MouseoverImage>2124</MouseoverImage>
+                <Image>2124</Image>
                 <Text>(INVSHR)</Text>
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -796,9 +839,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2081</PushedImage>
-                <MouseoverImage>2080</MouseoverImage>
-                <Image>2050</Image>
+                <PushedImage>2130</PushedImage>
+                <MouseoverImage>2129</MouseoverImage>
+                <Image>2128</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -817,9 +860,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2084</PushedImage>
-                <MouseoverImage>2083</MouseoverImage>
-                <Image>2051</Image>
+                <PushedImage>2134</PushedImage>
+                <MouseoverImage>2133</MouseoverImage>
+                <Image>2132</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -838,9 +881,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2087</PushedImage>
-                <MouseoverImage>2086</MouseoverImage>
-                <Image>2052</Image>
+                <PushedImage>2142</PushedImage>
+                <MouseoverImage>2141</MouseoverImage>
+                <Image>2140</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -859,9 +902,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2090</PushedImage>
-                <MouseoverImage>2089</MouseoverImage>
-                <Image>2053</Image>
+                <PushedImage>2138</PushedImage>
+                <MouseoverImage>2137</MouseoverImage>
+                <Image>2136</Image>
                 <Text />
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -914,9 +957,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2069</PushedImage>
-                <MouseoverImage>2068</MouseoverImage>
-                <Image>2046</Image>
+                <PushedImage>2118</PushedImage>
+                <MouseoverImage>2117</MouseoverImage>
+                <Image>2116</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -935,9 +978,9 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>2063</PushedImage>
-                <MouseoverImage>2062</MouseoverImage>
-                <Image>2041</Image>
+                <PushedImage>2106</PushedImage>
+                <MouseoverImage>2105</MouseoverImage>
+                <Image>2104</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>27</Height>
                 <Locked>False</Locked>
@@ -1024,9 +1067,9 @@
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
+              <BorderColor>19248</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>3</ID>
               <Name>gPanel</Name>
@@ -1211,7 +1254,7 @@
               </GUIButton>
               <GUILabel>
                 <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>15</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Audio Volume</Text>
                 <Height>10</Height>
@@ -1221,11 +1264,11 @@
                 <Top>12</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
-                <Name>Label1</Name>
+                <Name>lblVolume</Name>
               </GUILabel>
               <GUILabel>
                 <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>15</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Voice Volume</Text>
                 <Height>10</Height>
@@ -1239,7 +1282,7 @@
               </GUILabel>
               <GUILabel>
                 <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>15</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text>Gamma</Text>
                 <Height>13</Height>
@@ -1291,7 +1334,7 @@
               </GUISlider>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>15</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text>Speed</Text>
                 <Height>10</Height>
@@ -1301,7 +1344,7 @@
                 <Top>123</Top>
                 <ZOrder>14</ZOrder>
                 <ID>14</ID>
-                <Name>Label2</Name>
+                <Name>lblSpeed</Name>
               </GUILabel>
               <GUIButton>
                 <OnClick>btnRestart_OnClick</OnClick>
@@ -1337,9 +1380,9 @@
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>7</BorderColor>
+              <BorderColor>19248</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>7</BackgroundColor>
+              <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>4</ID>
               <Name>gRestartYN</Name>
@@ -1347,7 +1390,7 @@
             <Controls>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Are you sure you want to restart?</Text>
                 <Height>22</Height>
@@ -1414,9 +1457,9 @@
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>8</BorderColor>
+              <BorderColor>19248</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>7</BackgroundColor>
+              <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>5</ID>
               <Name>gSaveGame</Name>
@@ -1424,7 +1467,7 @@
             <Controls>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the name to save this game as:</Text>
                 <Height>20</Height>
@@ -1434,11 +1477,11 @@
                 <Top>7</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Label5</Name>
+                <Name>lblSaveText</Name>
               </GUILabel>
               <GUITextBox>
                 <OnActivate>txtNewSaveName_OnActivate</OnActivate>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <ShowBorder>True</ShowBorder>
                 <Text />
@@ -1498,9 +1541,9 @@
                 <ShowScrollArrows>True</ShowScrollArrows>
                 <ShowBorder>True</ShowBorder>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>0</TextColor>
-                <SelectedTextColor>7</SelectedTextColor>
-                <SelectedBackgroundColor>16</SelectedBackgroundColor>
+                <TextColor>19248</TextColor>
+                <SelectedTextColor>32089</SelectedTextColor>
+                <SelectedBackgroundColor>19248</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
                 <Height>96</Height>
@@ -1546,9 +1589,9 @@
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>8</BorderColor>
+              <BorderColor>19248</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>7</BackgroundColor>
+              <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>6</ID>
               <Name>gRestoreGame</Name>
@@ -1556,7 +1599,7 @@
             <Controls>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the game that you want to restore:</Text>
                 <Height>20</Height>
@@ -1566,7 +1609,7 @@
                 <Top>7</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Label52</Name>
+                <Name>lblRestoreText</Name>
               </GUILabel>
               <GUIButton>
                 <OnClick>btnRestoreGame_OnClick</OnClick>
@@ -1615,9 +1658,9 @@
                 <ShowScrollArrows>True</ShowScrollArrows>
                 <ShowBorder>True</ShowBorder>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>0</TextColor>
-                <SelectedTextColor>7</SelectedTextColor>
-                <SelectedBackgroundColor>16</SelectedBackgroundColor>
+                <TextColor>19248</TextColor>
+                <SelectedTextColor>32089</SelectedTextColor>
+                <SelectedBackgroundColor>19248</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
                 <Height>114</Height>
@@ -1848,7 +1891,7 @@
           <Character>
             <ID>0</ID>
             <ScriptName>cEgo</ScriptName>
-            <RealName>ROGER</RealName>
+            <RealName>Roger</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
@@ -2319,91 +2362,199 @@ return
       <SpriteFolder Name="Main">
         <SubFolders>
           <SpriteFolder Name="Defaults">
-            <SubFolders />
+            <SubFolders>
+              <SpriteFolder Name="Verbs">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="2100" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2101" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2102" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2103" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2104" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2105" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2106" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2107" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2108" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2109" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2110" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2111" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2112" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2113" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2114" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2115" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2116" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2117" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2118" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2119" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2120" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2121" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2122" Width="33" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2123" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2124" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2126" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2127" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2128" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2129" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2130" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2131" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2132" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2133" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2134" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2135" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2136" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2137" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2138" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2139" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2140" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2141" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2142" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2143" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
             <Sprites>
-              <Sprite Slot="2000" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2001" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2002" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2003" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2004" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2005" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2006" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2007" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2008" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2009" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2010" Width="11" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2011" Width="11" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2012" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2013" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2014" Width="17" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2015" Width="12" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2016" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2017" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2018" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2019" Width="11" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2020" Width="11" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2021" Width="11" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2022" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2023" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2024" Width="17" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2025" Width="12" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2026" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2027" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2028" Width="15" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2029" Width="11" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2030" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2031" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2032" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2033" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2034" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2035" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2036" Width="16" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2037" Width="16" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2038" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2039" Width="18" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2000" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2001" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2002" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2003" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2004" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0003.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2005" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2006" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkDown0005.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2010" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0006.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2011" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2012" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0003.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2013" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2014" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0005.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2015" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2016" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkLeft0001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2020" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2021" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2022" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0003.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2023" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2024" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0005.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2025" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2026" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkRight0001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2030" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\stand0004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2031" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2032" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2033" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2034" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0003.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2035" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="2036" Width="25" Height="50" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\nu-Roger\walkUp0005.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="2040" Width="14" Height="14" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2041" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2062" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2063" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2064" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2042" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2043" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2044" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2065" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2066" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2067" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2045" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2046" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2068" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2069" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2070" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2047" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2071" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2072" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2073" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2048" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2074" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2075" Width="33" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2076" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2049" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2078" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2079" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2050" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2080" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2081" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2082" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2051" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2083" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2084" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2085" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2052" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2086" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2087" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2088" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2053" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2089" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2090" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2091" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2054" Width="27" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                 <Source>
                   <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\walk.png</FileName>
@@ -2514,27 +2665,6 @@ return
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2007</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2008</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2009</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
                 </Frames>
               </Loop>
               <Loop>
@@ -2586,27 +2716,6 @@ return
                   <ViewFrame>
                     <ID>6</ID>
                     <Image>2016</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2017</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2018</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2019</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2666,27 +2775,6 @@ return
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2027</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2028</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2029</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
                 </Frames>
               </Loop>
               <Loop>
@@ -2738,27 +2826,6 @@ return
                   <ViewFrame>
                     <ID>6</ID>
                     <Image>2036</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>2037</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>2038</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>2039</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
