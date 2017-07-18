@@ -626,7 +626,7 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>13</Height>
+              <Height>14</Height>
               <Width>320</Width>
               <Left>0</Left>
               <Top>0</Top>
@@ -651,7 +651,7 @@
                 <Locked>True</Locked>
                 <Width>100</Width>
                 <Left>2</Left>
-                <Top>3</Top>
+                <Top>1</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblGameName</Name>
@@ -665,7 +665,7 @@
                 <Locked>True</Locked>
                 <Width>70</Width>
                 <Left>250</Left>
-                <Top>3</Top>
+                <Top>1</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>lblScore</Name>
@@ -679,7 +679,7 @@
                 <Locked>True</Locked>
                 <Width>320</Width>
                 <Left>0</Left>
-                <Top>3</Top>
+                <Top>1</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>lblOverHotspot</Name>
@@ -1006,7 +1006,7 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>85</Left>
+                <Left>182</Left>
                 <Top>100</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -1086,7 +1086,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>RESUME</Text>
+                <Text>Resume</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -1107,7 +1107,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text xml:space="preserve">SAVE GAME</Text>
+                <Text>Save</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -1128,7 +1128,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>ABOUT</Text>
+                <Text>About</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -1149,7 +1149,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text xml:space="preserve">QUIT GAME</Text>
+                <Text>Quit</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -1205,7 +1205,7 @@
                 <Locked>False</Locked>
                 <Width>100</Width>
                 <Left>82</Left>
-                <Top>110</Top>
+                <Top>108</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>sldGamma</Name>
@@ -1242,7 +1242,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text xml:space="preserve">LOAD GAME</Text>
+                <Text>Load</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -1260,8 +1260,8 @@
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>97</Width>
-                <Left>84</Left>
-                <Top>12</Top>
+                <Left>82</Left>
+                <Top>11</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
                 <Name>lblVolume</Name>
@@ -1274,8 +1274,8 @@
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>101</Width>
-                <Left>81</Left>
-                <Top>42</Top>
+                <Left>82</Left>
+                <Top>41</Top>
                 <ZOrder>10</ZOrder>
                 <ID>10</ID>
                 <Name>lblVoice</Name>
@@ -1287,9 +1287,9 @@
                 <Text>Gamma</Text>
                 <Height>13</Height>
                 <Locked>False</Locked>
-                <Width>47</Width>
-                <Left>108</Left>
-                <Top>99</Top>
+                <Width>101</Width>
+                <Left>82</Left>
+                <Top>95</Top>
                 <ZOrder>11</ZOrder>
                 <ID>11</ID>
                 <Name>lblGamma</Name>
@@ -1333,15 +1333,15 @@
                 <Name>sldSpeed</Name>
               </GUISlider>
               <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
+                <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text>Speed</Text>
                 <Height>10</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>121</Left>
-                <Top>123</Top>
+                <Width>101</Width>
+                <Left>82</Left>
+                <Top>122</Top>
                 <ZOrder>14</ZOrder>
                 <ID>14</ID>
                 <Name>lblSpeed</Name>
@@ -1357,7 +1357,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>RESTART</Text>
+                <Text>Restart</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
@@ -1372,8 +1372,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>53</Height>
-              <Width>105</Width>
+              <Height>60</Height>
+              <Width>200</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
@@ -1393,14 +1393,14 @@
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Are you sure you want to restart?</Text>
-                <Height>22</Height>
+                <Height>23</Height>
                 <Locked>False</Locked>
-                <Width>98</Width>
-                <Left>4</Left>
-                <Top>4</Top>
+                <Width>150</Width>
+                <Left>25</Left>
+                <Top>6</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Label4</Name>
+                <Name>lRestartText</Name>
               </GUILabel>
               <GUIButton>
                 <OnClick>btnRestartYes_OnClick</OnClick>
@@ -1416,9 +1416,9 @@
                 <Text>Yes</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>37</Width>
-                <Left>6</Left>
-                <Top>29</Top>
+                <Width>70</Width>
+                <Left>10</Left>
+                <Top>37</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnRestartYes</Name>
@@ -1437,9 +1437,9 @@
                 <Text>No</Text>
                 <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>37</Width>
-                <Left>55</Left>
-                <Top>29</Top>
+                <Width>70</Width>
+                <Left>120</Left>
+                <Top>37</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnRestartNo</Name>
@@ -1472,9 +1472,9 @@
                 <Text xml:space="preserve">Please choose the name to save this game as:</Text>
                 <Height>20</Height>
                 <Locked>False</Locked>
-                <Width>153</Width>
-                <Left>20</Left>
-                <Top>7</Top>
+                <Width>160</Width>
+                <Left>8</Left>
+                <Top>3</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblSaveText</Name>
@@ -1485,10 +1485,10 @@
                 <Font>0</Font>
                 <ShowBorder>True</ShowBorder>
                 <Text />
-                <Height>13</Height>
+                <Height>14</Height>
                 <Locked>False</Locked>
-                <Width>149</Width>
-                <Left>20</Left>
+                <Width>160</Width>
+                <Left>8</Left>
                 <Top>29</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -1506,11 +1506,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Save</Text>
-                <Height>13</Height>
+                <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>29</Top>
+                <Width>68</Width>
+                <Left>175</Left>
+                <Top>73</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnSaveGame</Name>
@@ -1527,11 +1527,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Cancel</Text>
-                <Height>13</Height>
+                <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>65</Top>
+                <Width>68</Width>
+                <Left>175</Left>
+                <Top>123</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnCancelSave</Name>
@@ -1546,11 +1546,11 @@
                 <SelectedBackgroundColor>19248</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
-                <Height>96</Height>
+                <Height>95</Height>
                 <Locked>False</Locked>
-                <Width>148</Width>
-                <Left>20</Left>
-                <Top>45</Top>
+                <Width>160</Width>
+                <Left>8</Left>
+                <Top>47</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>lstSaveGamesList</Name>
@@ -1567,11 +1567,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Delete</Text>
-                <Height>13</Height>
+                <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>47</Top>
+                <Width>68</Width>
+                <Left>175</Left>
+                <Top>98</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnDeleteSave</Name>
@@ -1602,11 +1602,11 @@
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the game that you want to restore:</Text>
-                <Height>20</Height>
+                <Height>22</Height>
                 <Locked>False</Locked>
-                <Width>153</Width>
-                <Left>20</Left>
-                <Top>7</Top>
+                <Width>173</Width>
+                <Left>8</Left>
+                <Top>3</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblRestoreText</Name>
@@ -1623,11 +1623,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Restore</Text>
-                <Height>13</Height>
+                <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>29</Top>
+                <Width>68</Width>
+                <Left>175</Left>
+                <Top>97</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnRestoreGame</Name>
@@ -1644,11 +1644,11 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
                 <Text>Cancel</Text>
-                <Height>13</Height>
+                <Height>18</Height>
                 <Locked>False</Locked>
-                <Width>56</Width>
-                <Left>182</Left>
-                <Top>46</Top>
+                <Width>68</Width>
+                <Left>175</Left>
+                <Top>123</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnCancelRestore</Name>
@@ -1663,11 +1663,11 @@
                 <SelectedBackgroundColor>19248</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
-                <Height>114</Height>
+                <Height>112</Height>
                 <Locked>False</Locked>
-                <Width>153</Width>
-                <Left>20</Left>
-                <Top>30</Top>
+                <Width>160</Width>
+                <Left>8</Left>
+                <Top>29</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>lstRestoreGamesList</Name>
