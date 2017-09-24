@@ -3,7 +3,7 @@
 <AGSEditorDocument Version="3.0.3.2" VersionIndex="13" EditorVersion="3.4.0">
   <Game>
     <Settings>
-      <GameName xml:space="preserve">Sierra Template</GameName>
+      <GameName>Template</GameName>
       <UniqueID>181314002</UniqueID>
       <GUIDAsString>{88c136b9-bcdf-4960-b5bd-ffa95c202b36}</GUIDAsString>
       <ColorDepth>TrueColor</ColorDepth>
@@ -24,8 +24,8 @@
       <GUIAlphaStyle>MultiplyTranslucenceSrcBlend</GUIAlphaStyle>
       <SpriteAlphaStyle>Improved</SpriteAlphaStyle>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
-      <InventoryHotspotMarkerStyle>None</InventoryHotspotMarkerStyle>
-      <InventoryHotspotMarkerSprite>0</InventoryHotspotMarkerSprite>
+      <InventoryHotspotMarkerStyle>Sprite</InventoryHotspotMarkerStyle>
+      <InventoryHotspotMarkerSprite>2059</InventoryHotspotMarkerSprite>
       <InventoryHotspotMarkerDotColor>6</InventoryHotspotMarkerDotColor>
       <InventoryHotspotMarkerCrosshairColor>5</InventoryHotspotMarkerCrosshairColor>
       <WalkInLookMode>False</WalkInLookMode>
@@ -54,7 +54,7 @@
       <NumberDialogOptions>None</NumberDialogOptions>
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
-      <TextWindowGUI>0</TextWindowGUI>
+      <TextWindowGUI>7</TextWindowGUI>
       <AlwaysDisplayTextAsSpeech>False</AlwaysDisplayTextAsSpeech>
       <FontsForHiRes>False</FontsForHiRes>
       <AntiAliasFonts>False</AntiAliasFonts>
@@ -72,7 +72,7 @@
       <DeveloperURL />
       <EnhancedSaveGames>False</EnhancedSaveGames>
       <SaveGameFileExtension />
-      <SaveGameFolderName xml:space="preserve">Sierra Template</SaveGameFolderName>
+      <SaveGameFolderName>Template</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
       <AudioIndexer>0</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
@@ -689,7 +689,7 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>27</Height>
+              <Height>29</Height>
               <Width>320</Width>
               <Left>0</Left>
               <Top>0</Top>
@@ -697,7 +697,7 @@
               <Visibility>MouseYPos</Visibility>
               <PopupYPos>13</PopupYPos>
               <ZOrder>1</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>32089</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
@@ -720,8 +720,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>0</Left>
-                <Top>0</Top>
+                <Left>1</Left>
+                <Top>1</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>btnIconWalk</Name>
@@ -741,8 +741,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>32</Left>
-                <Top>0</Top>
+                <Left>33</Left>
+                <Top>1</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnIconExamine</Name>
@@ -762,8 +762,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>64</Left>
-                <Top>0</Top>
+                <Left>65</Left>
+                <Top>1</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnIconInteract</Name>
@@ -783,8 +783,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>96</Left>
-                <Top>0</Top>
+                <Left>97</Left>
+                <Top>1</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnIconTalk</Name>
@@ -804,8 +804,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>128</Left>
-                <Top>0</Top>
+                <Left>129</Left>
+                <Top>1</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnIconInv</Name>
@@ -825,8 +825,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>160</Left>
-                <Top>0</Top>
+                <Left>161</Left>
+                <Top>1</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnIconCurInv</Name>
@@ -846,8 +846,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>192</Left>
-                <Top>0</Top>
+                <Left>193</Left>
+                <Top>1</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>btnIconSave</Name>
@@ -867,8 +867,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>224</Left>
-                <Top>0</Top>
+                <Left>225</Left>
+                <Top>1</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>btnIconLoad</Name>
@@ -888,8 +888,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>288</Left>
-                <Top>0</Top>
+                <Left>289</Left>
+                <Top>1</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
                 <Name>btnIconExit</Name>
@@ -909,8 +909,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>256</Left>
-                <Top>0</Top>
+                <Left>257</Left>
+                <Top>1</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
                 <Name>btnIconAbout</Name>
@@ -920,31 +920,31 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>130</Height>
-              <Width>220</Width>
+              <Height>133</Height>
+              <Width>223</Width>
               <Left>50</Left>
               <Top>35</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>2</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>-1</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2169</BackgroundImage>
               <ID>2</ID>
               <Name>gInventory</Name>
             </NormalGUI>
             <Controls>
               <GUIInventory>
-                <ItemWidth>40</ItemWidth>
-                <ItemHeight>22</ItemHeight>
+                <ItemWidth>21</ItemWidth>
+                <ItemHeight>21</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>89</Height>
+                <Height>87</Height>
                 <Locked>False</Locked>
-                <Width>190</Width>
-                <Left>5</Left>
-                <Top>5</Top>
+                <Width>174</Width>
+                <Left>8</Left>
+                <Top>8</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>invCustomInv</Name>
@@ -964,8 +964,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>45</Left>
-                <Top>100</Top>
+                <Left>39</Left>
+                <Top>101</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnInvSelect</Name>
@@ -985,8 +985,8 @@
                 <Height>27</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>5</Left>
-                <Top>100</Top>
+                <Left>4</Left>
+                <Top>101</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnInvLook</Name>
@@ -996,18 +996,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2043</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>27</Height>
+                <Image>2160</Image>
+                <Text>Close</Text>
+                <Height>19</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>182</Left>
-                <Top>100</Top>
+                <Width>71</Width>
+                <Left>147</Left>
+                <Top>107</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnInvOK</Name>
@@ -1020,15 +1020,15 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1</Image>
+                <PushedImage>2146</PushedImage>
+                <MouseoverImage>2145</MouseoverImage>
+                <Image>2144</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>20</Height>
+                <Height>27</Height>
                 <Locked>False</Locked>
-                <Width>20</Width>
-                <Left>198</Left>
-                <Top>55</Top>
+                <Width>30</Width>
+                <Left>188</Left>
+                <Top>71</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>btnInvDown</Name>
@@ -1041,15 +1041,15 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>16</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>4</Image>
+                <PushedImage>2149</PushedImage>
+                <MouseoverImage>2148</MouseoverImage>
+                <Image>2147</Image>
                 <Text xml:space="preserve">New Button</Text>
-                <Height>20</Height>
+                <Height>27</Height>
                 <Locked>False</Locked>
-                <Width>20</Width>
-                <Left>198</Left>
-                <Top>32</Top>
+                <Width>30</Width>
+                <Left>188</Left>
+                <Top>5</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnInvUp</Name>
@@ -1059,18 +1059,18 @@
           <GUIMain>
             <NormalGUI>
               <OnClick>gControl_OnClick</OnClick>
-              <Height>154</Height>
-              <Width>188</Width>
+              <Height>157</Height>
+              <Width>259</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2167</BackgroundImage>
               <ID>3</ID>
               <Name>gPanel</Name>
             </NormalGUI>
@@ -1081,16 +1081,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Resume</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>110</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -1102,16 +1102,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Save</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>5</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -1123,16 +1123,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>About</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>89</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -1144,16 +1144,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Quit</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>68</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -1161,51 +1161,51 @@
               </GUIButton>
               <GUISlider>
                 <OnChange>sldAudio_OnChange</OnChange>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <BackgroundImage>0</BackgroundImage>
+                <HandleImage>2166</HandleImage>
+                <HandleOffset>-4</HandleOffset>
+                <BackgroundImage>2165</BackgroundImage>
                 <MinValue>0</MinValue>
                 <MaxValue>100</MaxValue>
                 <Value>100</Value>
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>100</Width>
-                <Left>82</Left>
-                <Top>24</Top>
+                <Left>114</Left>
+                <Top>27</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>sldAudio</Name>
               </GUISlider>
               <GUISlider>
                 <OnChange>sldVoice_OnChange</OnChange>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <BackgroundImage>0</BackgroundImage>
+                <HandleImage>2166</HandleImage>
+                <HandleOffset>-4</HandleOffset>
+                <BackgroundImage>2165</BackgroundImage>
                 <MinValue>0</MinValue>
                 <MaxValue>255</MaxValue>
                 <Value>255</Value>
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>100</Width>
-                <Left>82</Left>
-                <Top>53</Top>
+                <Left>114</Left>
+                <Top>56</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>sldVoice</Name>
               </GUISlider>
               <GUISlider>
                 <OnChange>sldGamma_OnChange</OnChange>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <BackgroundImage>0</BackgroundImage>
+                <HandleImage>2166</HandleImage>
+                <HandleOffset>-4</HandleOffset>
+                <BackgroundImage>2165</BackgroundImage>
                 <MinValue>0</MinValue>
                 <MaxValue>200</MaxValue>
                 <Value>100</Value>
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>100</Width>
-                <Left>82</Left>
-                <Top>108</Top>
+                <Left>114</Left>
+                <Top>111</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>sldGamma</Name>
@@ -1216,16 +1216,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Default</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>131</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
@@ -1237,16 +1237,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Load</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>26</Top>
                 <ZOrder>8</ZOrder>
                 <ID>8</ID>
@@ -1260,7 +1260,7 @@
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>97</Width>
-                <Left>82</Left>
+                <Left>115</Left>
                 <Top>11</Top>
                 <ZOrder>9</ZOrder>
                 <ID>9</ID>
@@ -1274,7 +1274,7 @@
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>101</Width>
-                <Left>82</Left>
+                <Left>115</Left>
                 <Top>41</Top>
                 <ZOrder>10</ZOrder>
                 <ID>10</ID>
@@ -1288,7 +1288,7 @@
                 <Height>13</Height>
                 <Locked>False</Locked>
                 <Width>101</Width>
-                <Left>82</Left>
+                <Left>115</Left>
                 <Top>95</Top>
                 <ZOrder>11</ZOrder>
                 <ID>11</ID>
@@ -1300,16 +1300,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text xml:space="preserve">Text only</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>97</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>131</Left>
                 <Top>72</Top>
                 <ZOrder>12</ZOrder>
                 <ID>12</ID>
@@ -1317,17 +1317,17 @@
               </GUIButton>
               <GUISlider>
                 <OnChange>sldSpeed_OnChange</OnChange>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <BackgroundImage>0</BackgroundImage>
+                <HandleImage>2166</HandleImage>
+                <HandleOffset>-4</HandleOffset>
+                <BackgroundImage>2165</BackgroundImage>
                 <MinValue>10</MinValue>
                 <MaxValue>100</MaxValue>
                 <Value>40</Value>
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>100</Width>
-                <Left>82</Left>
-                <Top>136</Top>
+                <Left>114</Left>
+                <Top>140</Top>
                 <ZOrder>13</ZOrder>
                 <ID>13</ID>
                 <Name>sldSpeed</Name>
@@ -1340,7 +1340,7 @@
                 <Height>10</Height>
                 <Locked>False</Locked>
                 <Width>101</Width>
-                <Left>82</Left>
+                <Left>115</Left>
                 <Top>122</Top>
                 <ZOrder>14</ZOrder>
                 <ID>14</ID>
@@ -1352,16 +1352,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Restart</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>4</Left>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>8</Left>
                 <Top>47</Top>
                 <ZOrder>15</ZOrder>
                 <ID>15</ID>
@@ -1372,18 +1372,18 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>60</Height>
-              <Width>200</Width>
+              <Height>65</Height>
+              <Width>205</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2168</BackgroundImage>
               <ID>4</ID>
               <Name>gRestartYN</Name>
             </NormalGUI>
@@ -1396,7 +1396,7 @@
                 <Height>23</Height>
                 <Locked>False</Locked>
                 <Width>150</Width>
-                <Left>25</Left>
+                <Left>24</Left>
                 <Top>6</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -1408,15 +1408,15 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Yes</Text>
-                <Height>18</Height>
+                <Height>19</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
+                <Width>71</Width>
                 <Left>10</Left>
                 <Top>37</Top>
                 <ZOrder>1</ZOrder>
@@ -1429,16 +1429,16 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>No</Text>
-                <Height>18</Height>
+                <Height>19</Height>
                 <Locked>False</Locked>
-                <Width>70</Width>
-                <Left>120</Left>
+                <Width>71</Width>
+                <Left>123</Left>
                 <Top>37</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -1449,18 +1449,18 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>150</Height>
-              <Width>250</Width>
-              <Left>35</Left>
-              <Top>25</Top>
+              <Height>157</Height>
+              <Width>259</Width>
+              <Left>0</Left>
+              <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2167</BackgroundImage>
               <ID>5</ID>
               <Name>gSaveGame</Name>
             </NormalGUI>
@@ -1470,9 +1470,9 @@
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the name to save this game as:</Text>
-                <Height>20</Height>
-                <Locked>False</Locked>
-                <Width>160</Width>
+                <Height>25</Height>
+                <Locked>True</Locked>
+                <Width>237</Width>
                 <Left>8</Left>
                 <Top>3</Top>
                 <ZOrder>0</ZOrder>
@@ -1485,11 +1485,11 @@
                 <Font>0</Font>
                 <ShowBorder>True</ShowBorder>
                 <Text />
-                <Height>14</Height>
-                <Locked>False</Locked>
-                <Width>160</Width>
-                <Left>8</Left>
-                <Top>29</Top>
+                <Height>15</Height>
+                <Locked>True</Locked>
+                <Width>170</Width>
+                <Left>6</Left>
+                <Top>31</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>txtNewSaveName</Name>
@@ -1499,18 +1499,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Save</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>68</Width>
-                <Left>175</Left>
-                <Top>73</Top>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>183</Left>
+                <Top>82</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnSaveGame</Name>
@@ -1520,18 +1520,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Cancel</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>68</Width>
-                <Left>175</Left>
-                <Top>123</Top>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>183</Left>
+                <Top>132</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnCancelSave</Name>
@@ -1546,11 +1546,11 @@
                 <SelectedBackgroundColor>19248</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
-                <Height>95</Height>
-                <Locked>False</Locked>
-                <Width>160</Width>
-                <Left>8</Left>
-                <Top>47</Top>
+                <Height>102</Height>
+                <Locked>True</Locked>
+                <Width>170</Width>
+                <Left>6</Left>
+                <Top>48</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>lstSaveGamesList</Name>
@@ -1560,18 +1560,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Delete</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>68</Width>
-                <Left>175</Left>
-                <Top>98</Top>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>183</Left>
+                <Top>107</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>btnDeleteSave</Name>
@@ -1581,18 +1581,18 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>150</Height>
-              <Width>250</Width>
-              <Left>35</Left>
-              <Top>25</Top>
+              <Height>157</Height>
+              <Width>259</Width>
+              <Left>0</Left>
+              <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>PopupModal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2167</BackgroundImage>
               <ID>6</ID>
               <Name>gRestoreGame</Name>
             </NormalGUI>
@@ -1603,8 +1603,8 @@
                 <Font>0</Font>
                 <Text xml:space="preserve">Please choose the game that you want to restore:</Text>
                 <Height>22</Height>
-                <Locked>False</Locked>
-                <Width>173</Width>
+                <Locked>True</Locked>
+                <Width>237</Width>
                 <Left>8</Left>
                 <Top>3</Top>
                 <ZOrder>0</ZOrder>
@@ -1616,18 +1616,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Restore</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>68</Width>
-                <Left>175</Left>
-                <Top>97</Top>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>183</Left>
+                <Top>107</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnRestoreGame</Name>
@@ -1637,18 +1637,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
+                <PushedImage>2161</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
+                <Image>2160</Image>
                 <Text>Cancel</Text>
-                <Height>18</Height>
-                <Locked>False</Locked>
-                <Width>68</Width>
-                <Left>175</Left>
-                <Top>123</Top>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>183</Left>
+                <Top>132</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnCancelRestore</Name>
@@ -1663,15 +1663,192 @@
                 <SelectedBackgroundColor>19248</SelectedBackgroundColor>
                 <Font>0</Font>
                 <Translated>False</Translated>
-                <Height>112</Height>
+                <Height>119</Height>
                 <Locked>False</Locked>
-                <Width>160</Width>
-                <Left>8</Left>
-                <Top>29</Top>
+                <Width>170</Width>
+                <Left>6</Left>
+                <Top>31</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>lstRestoreGamesList</Name>
               </GUIListBox>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <TextWindowGUI>
+              <TextColor>65523</TextColor>
+              <Padding>3</Padding>
+              <BackgroundColor>19248</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>7</ID>
+              <Name>gTextBorder</Name>
+            </TextWindowGUI>
+            <Controls>
+              <GUITextWindowEdge>
+                <Image>2150</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2155</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>90</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2152</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>0</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2157</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>90</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2153</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>0</Left>
+                <Top>40</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2154</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>90</Left>
+                <Top>40</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2151</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>40</Left>
+                <Top>0</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name />
+              </GUITextWindowEdge>
+              <GUITextWindowEdge>
+                <Image>2156</Image>
+                <Height>10</Height>
+                <Locked>False</Locked>
+                <Width>10</Width>
+                <Left>40</Left>
+                <Top>90</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name />
+              </GUITextWindowEdge>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>65</Height>
+              <Width>205</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>PopupModal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>2168</BackgroundImage>
+              <ID>8</ID>
+              <Name>gExitGame</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>bQuit_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
+                <Font>0</Font>
+                <PushedImage>2161</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2160</Image>
+                <Text>Quit</Text>
+                <Height>19</Height>
+                <Locked>True</Locked>
+                <Width>71</Width>
+                <Left>10</Left>
+                <Top>37</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>bQuit</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>bPlay_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>19248</TextColor>
+                <Font>0</Font>
+                <PushedImage>2161</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>2160</Image>
+                <Text>Play</Text>
+                <Height>19</Height>
+                <Locked>False</Locked>
+                <Width>71</Width>
+                <Left>123</Left>
+                <Top>37</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>bPlay</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>19248</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Are you sure you want to quit?</Text>
+                <Height>23</Height>
+                <Locked>True</Locked>
+                <Width>150</Width>
+                <Left>24</Left>
+                <Top>6</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>lQuitWindowText</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1683,13 +1860,13 @@
         <InventoryItems>
           <InventoryItem>
             <ID>1</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <CursorImage>2</CursorImage>
-            <Image>2</Image>
-            <Description>Key</Description>
-            <Name>iKey</Name>
+            <CursorImage>2041</CursorImage>
+            <Image>2041</Image>
+            <Description xml:space="preserve">Blue Cup</Description>
+            <Name>iBlueCup</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1701,13 +1878,13 @@
           </InventoryItem>
           <InventoryItem>
             <ID>2</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>1</HotspotY>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <CursorImage>3</CursorImage>
-            <Image>3</Image>
-            <Description xml:space="preserve">Pink poster</Description>
-            <Name>iPoster</Name>
+            <CursorImage>2042</CursorImage>
+            <Image>2042</Image>
+            <Description>Key</Description>
+            <Name>iKey</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1898,8 +2075,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>160</StartY>
+            <StartX>127</StartX>
+            <StartY>142</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -2366,49 +2543,281 @@ return
               <SpriteFolder Name="Verbs">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2100" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2101" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2102" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2100" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Walk.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2101" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Walk_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2102" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Walk_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2103" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2104" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2105" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2106" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2104" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Examine.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2105" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Examine_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2106" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Examine_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2107" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2108" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2109" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2110" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2108" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Take.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2109" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Take_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2110" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Take_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2111" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2112" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2113" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2114" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2112" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Talk.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2113" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Talk_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2114" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Talk_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2115" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2116" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2117" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2118" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2116" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Cursor.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2117" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Cursor_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2118" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Cursor_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2119" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2120" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2121" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2122" Width="33" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2120" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Items.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2121" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Items_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2122" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Items_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2123" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2124" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2126" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2124" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Empty.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2126" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Empty_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2127" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2128" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2129" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2130" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2128" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Save.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2129" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Save_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2130" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Save_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2131" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2132" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2133" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2134" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2132" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Load.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2133" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Load_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2134" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Load_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2135" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2136" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2137" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2138" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2136" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Options.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2137" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Options_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2138" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Options_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2139" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2140" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2141" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="2142" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2140" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Power.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2141" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Power_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2142" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Power_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
                   <Sprite Slot="2143" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2144" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvDown.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2145" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvDown_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2146" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvDown_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2147" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvUp.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2148" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvUp_Hover.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2149" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvUp_Pushed.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="TextWindow">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="2150" Width="4" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2151" Width="1" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2152" Width="4" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2153" Width="4" Height="1" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2154" Width="4" Height="1" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2155" Width="4" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2156" Width="1" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2157" Width="4" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="UI">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="2160" Width="71" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\button.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2161" Width="71" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\button_down.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2165" Width="99" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\slider-bar.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2166" Width="9" Height="11" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2167" Width="259" Height="157" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2168" Width="205" Height="65" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2169" Width="223" Height="133" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Cursors">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="2054" Width="27" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\walk.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2055" Width="14" Height="22" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\wait.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2056" Width="26" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\examine.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2057" Width="19" Height="28" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\interact.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2058" Width="28" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\talk.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2059" Width="9" Height="13" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2060" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2061" Width="12" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\arrow.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -2554,53 +2963,13 @@ return
                 </Source>
               </Sprite>
               <Sprite Slot="2040" Width="14" Height="14" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2043" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2054" Width="27" Height="24" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\walk.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2055" Width="14" Height="22" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\wait.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2056" Width="26" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\examine.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2057" Width="19" Height="28" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\interact.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2058" Width="28" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\talk.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="2059" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2060" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="2061" Width="12" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
-                <Source>
-                  <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\AGS-SCI-Template\resources\cursors\arrow.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="1" Width="20" Height="20" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-              <Sprite Slot="4" Width="20" Height="20" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2041" Width="20" Height="21" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="2042" Width="20" Height="21" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
             </Sprites>
-          </SpriteFolder>
-          <SpriteFolder Name="gSaveGameImport">
-            <SubFolders />
-            <Sprites />
           </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="2" Width="11" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="3" Width="11" Height="11" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="5" Width="36" Height="26" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
         </Sprites>
       </SpriteFolder>
     </Sprites>
