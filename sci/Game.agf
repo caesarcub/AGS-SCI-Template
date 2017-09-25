@@ -1302,14 +1302,14 @@
                 <TextAlignment>Centred</TextAlignment>
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>2163</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2160</Image>
+                <Image>2162</Image>
                 <Text xml:space="preserve">Text only</Text>
                 <Height>19</Height>
                 <Locked>True</Locked>
-                <Width>71</Width>
-                <Left>131</Left>
+                <Width>105</Width>
+                <Left>113</Left>
                 <Top>72</Top>
                 <ZOrder>12</ZOrder>
                 <ID>12</ID>
@@ -2772,6 +2772,8 @@ return
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\button_down.png</FileName>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="2162" Width="105" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2163" Width="105" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2165" Width="99" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\slider-bar.png</FileName>
