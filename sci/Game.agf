@@ -634,7 +634,7 @@
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>19248</BorderColor>
+              <BorderColor>32089</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>32089</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
@@ -1302,14 +1302,14 @@
                 <TextAlignment>Centred</TextAlignment>
                 <TextColor>19248</TextColor>
                 <Font>0</Font>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>2163</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2160</Image>
+                <Image>2162</Image>
                 <Text xml:space="preserve">Text only</Text>
                 <Height>19</Height>
                 <Locked>True</Locked>
-                <Width>71</Width>
-                <Left>131</Left>
+                <Width>105</Width>
+                <Left>113</Left>
                 <Top>72</Top>
                 <ZOrder>12</ZOrder>
                 <ID>12</ID>
@@ -2545,203 +2545,203 @@ return
                 <Sprites>
                   <Sprite Slot="2100" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Walk.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Walk.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2101" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Walk_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Walk_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2102" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Walk_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Walk_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2103" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2104" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Examine.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Examine.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2105" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Examine_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Examine_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2106" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Examine_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Examine_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2107" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2108" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Take.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Take.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2109" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Take_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Take_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2110" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Take_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Take_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2111" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2112" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Talk.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Talk.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2113" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Talk_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Talk_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2114" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Talk_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Talk_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2115" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2116" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Cursor.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Cursor.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2117" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Cursor_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Cursor_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2118" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Cursor_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Cursor_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2119" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2120" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Items.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Items.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2121" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Items_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Items_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2122" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Items_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Items_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2123" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2124" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Empty.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Empty.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2126" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Empty_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Empty_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2127" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2128" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Save.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Save.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2129" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Save_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Save_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2130" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Save_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Save_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2131" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2132" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Load.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Load.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2133" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Load_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Load_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2134" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Load_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Load_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2135" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2136" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Options.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Options.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2137" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Options_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Options_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2138" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Options_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Options_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2139" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2140" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Power.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Power.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2141" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Power_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Power_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2142" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\Power_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\Power_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2143" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2144" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvDown.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvDn.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2145" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvDown_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvDn_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2146" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvDown_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvDn_pushed.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2147" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvUp.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvUp.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2148" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvUp_Hover.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvUp_hover.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="2149" Width="30" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs\InvUp_Pushed.png</FileName>
+                      <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\Verbs-Round\InvUp_pushed.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -2772,6 +2772,8 @@ return
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\button_down.png</FileName>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="2162" Width="105" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2163" Width="105" Height="19" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="2165" Width="99" Height="4" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
                       <FileName>D:\01 - Projects\01 - Caesarcub\02 - Games\2017-AGS-Templates\sci\Resources\buttons\slider-bar.png</FileName>
